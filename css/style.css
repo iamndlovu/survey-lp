@@ -1,0 +1,238 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: #333;
+    box-sizing: border-box;
+    line-height: 1.5;
+}
+
+body
+{
+    font-family: "Source Sans Pro", arial, sans-serif;
+}
+
+header
+{
+    background: linear-gradient(rgba(22, 22, 22, 0.37) 0%, rgba(22, 22, 22, 0.37) 100%), url("https://img1.wsimg.com/isteam/videos/uA41GmyyG8IMaxXdb/:/rs=w:640,h:500,cg:true,m/cr=w:640,h:500,a:cc") fixed center;
+    background-size: cover;
+    color: white;
+    opacity: 1;
+    min-height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1
+{
+    text-transform: uppercase;
+    font-size: 2.3rem;
+    margin-top: 1rem;
+    color: white;
+}
+
+header h2
+{
+    text-transform: capitalize;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 4rem;
+    margin-bottom: 4rem;
+    margin-top: -3rem;
+    color: white;
+}
+
+.hero
+{
+    padding: 3.3rem 15px;
+    text-align: center;
+}
+
+.hero h4
+{
+    font-size: 1.7rem;
+    font-weight: 300;
+    text-align: center;
+    margin: 2rem;
+}
+
+.hero p
+{
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 2.5rem;
+}
+
+.cta-hero
+{
+    background: #333;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10rem;
+    height: 4rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400;
+    border-radius: 9px;
+    box-shadow: 6px 6px 6px #aaa;
+    transition: all 0.5s ease;
+}
+
+.hero .cta
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.cta-hero:hover
+{
+    box-shadow: none;
+}
+
+.s2
+{
+    background: #efefef;
+    padding: 4rem 20px;
+    text-align: center;
+}
+
+.s2 h3
+{
+    color: #777;
+    font-size: 3rem;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 3rem;
+}
+
+.s2 p
+{
+    color: #555;
+    width: 50vw;
+    margin: auto;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    font-weight: 200;
+}
+
+.s3
+{
+    padding: 3rem 1rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.s3 article
+{
+    flex-basis: 20rem;
+    text-align: center;
+}
+
+img
+{
+    max-width: 100%;
+    max-height: 10rem;
+    margin: 1rem 0;
+}
+
+.s3 article div
+{
+    font-size: 1.5rem;
+    color: #444;
+}
+
+article p
+{
+    color: #555;
+}
+
+footer
+{
+    background: #111;
+    color: white;
+    min-height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 500px)
+{
+    header
+    {
+        min-height: 65vh;
+    }
+
+    
+    header h1
+    {
+        font-size: 2rem;
+    }
+
+    header h2
+    {
+        font-size: 3rem;
+    }
+
+    .hero
+    {
+        padding: 2rem 5px;
+    }
+
+    .s2
+    {
+        padding: 1.6rem 10px;
+    }
+
+    .s2 h3
+    {
+        font-size: 2rem;
+        margin-bottom: 1.7rem;
+    }
+
+    .s2 p
+    {
+        width: 90vw;
+        font-size: 1.05rem;
+        line-height: 1.5;
+    }
+
+    .s3
+    {
+        padding: 1.9rem 10px;
+        padding-bottom: 1.9rem;
+    }
+
+    .s3 article
+    {
+        margin-bottom: 1.9rem;
+    }
+
+    img
+    {
+        max-width: 100%;
+        max-height: 10rem;
+        margin: 1rem 0;
+    }
+
+    .s3 article div
+    {
+        font-size: 1.5rem;
+        color: #444;
+    }
+}
+
+@media screen and (min-width: 501px) and (max-width: 769px)
+{
+    .s2 p
+    {
+        width: 80vw;
+    }
+}
